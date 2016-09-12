@@ -1,1 +1,1 @@
-return require("./upwatcher.js");
+upwatcher.js
