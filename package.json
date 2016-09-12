@@ -1,6 +1,6 @@
 {
-  "name": "koa-upmonitor",
-  "version": "2.1.0",
+  "name": "koa-upwatcher-server",
+  "version": "0.0.1",
   "description": "",
   "main": "monitor.js",
   "scripts": {
