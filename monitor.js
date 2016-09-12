@@ -55,10 +55,10 @@ router
     })
     .get('/register', function *(next) {
         console.log("Registering: " + this.query.name);
-        if (!(this.request.header.host in services))
-        {
+        //if (!(this.request.header.host in services))
+        //{
             services[this.query.name] = this.query.url;
-        }
+        //}
         this.response.status = 200;
         this.response.body = "Registered";
     });
